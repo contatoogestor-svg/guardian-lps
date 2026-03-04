@@ -1,0 +1,39 @@
+{
+  "cliente": "Guardian Monitoramento",
+  "servico": "Portaria Autonoma + Controle de Acesso",
+  "nicho": "Seguranca eletronica e portaria autonoma para condominios",
+  "objetivo": "Gerar leads via WhatsApp",
+  "publico": "Sindicos, administradoras de condominios, construtoras — Florianopolis e regiao",
+  "keywords": {
+    "principal": "Portaria Autonoma",
+    "secundarias": [
+      "Controle de Acesso para Condominio",
+      "Controle de Acesso Condominio",
+      "Portaria Autonoma Florianopolis",
+      "Portaria Remota para Condominio"
+    ]
+  },
+  "cta": {
+    "texto": "Solicite um Orcamento",
+    "link": "https://wa.me/554832349001?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20Google%20e%20queria%20mais%20informa%C3%A7%C3%B5es%20sobre%20Portaria%20Aut%C3%B4noma%20e%20Controle%20de%20Acesso."
+  },
+  "cores": {
+    "primaria": "#cb3033",
+    "secundaria": "#04344c",
+    "acento": "#00ffff"
+  },
+  "sections": {
+    "como_funciona": true,
+    "depoimentos": true,
+    "numeros": true,
+    "galeria": false,
+    "precos": false,
+    "faq": true,
+    "video": true
+  },
+  "contato": {
+    "telefone": "48 3234-9001",
+    "instagram": "@monitoramentoguardian",
+    "site": "www.guardianseg.com.br"
+  }
+}

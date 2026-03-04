@@ -1,0 +1,32 @@
+{
+  "cliente": "Guardian Monitoramento",
+  "nicho": "Empresa de alarmes e sistemas de seguranca 24h",
+  "objetivo": "Gerar leads via WhatsApp",
+  "publico": "Sindicos de condominios, empresarios, moradores residenciais — Florianopolis e regiao",
+  "keywords": {
+    "principal": "Monitoramento de Alarme",
+    "secundarias": ["Empresa de Monitoramento", "Alarme Monitorado 24h", "Sistema de Seguranca"]
+  },
+  "cta": {
+    "texto": "Fale com um Especialista",
+    "link": "https://wa.me/5548991563310?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20Google%20e%20queria%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Monitoramento%2024h."
+  },
+  "cores": {
+    "primaria": "#cb3033",
+    "secundaria": "#04344c",
+    "acento": "#00ffff"
+  },
+  "sections": {
+    "como_funciona": true,
+    "depoimentos": true,
+    "numeros": true,
+    "galeria": false,
+    "precos": false,
+    "faq": true
+  },
+  "contato": {
+    "telefone": "48 3234-9001",
+    "instagram": "@monitoramentoguardian",
+    "site": "www.guardianseg.com.br"
+  }
+}
