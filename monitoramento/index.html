@@ -164,7 +164,12 @@
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <a href="https://wa.me/554832349001?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20Google%20e%20queria%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Monitoramento%2024h." target="_blank" class="cta-pulse inline-flex items-center justify-center px-8 py-4 bg-primary text-white text-lg font-bold rounded-xl hover:bg-red-700 transition-colors">
+                            <!-- Mobile: scroll para formulario | Desktop: WhatsApp -->
+                            <a href="#formulario" class="lg:hidden cta-pulse inline-flex items-center justify-center px-8 py-4 bg-primary text-white text-lg font-bold rounded-xl hover:bg-red-700 transition-colors">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                                Fale com um Especialista
+                            </a>
+                            <a href="https://wa.me/554832349001?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20Google%20e%20queria%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Monitoramento%2024h." target="_blank" class="hidden lg:inline-flex cta-pulse items-center justify-center px-8 py-4 bg-primary text-white text-lg font-bold rounded-xl hover:bg-red-700 transition-colors">
                                 <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                                 Fale com um Especialista
                             </a>
@@ -190,8 +195,18 @@
                         </div>
                     </div>
 
-                    <!-- Coluna reservada para formulario futuro -->
-                    <div class="hidden lg:block"></div>
+                    <!-- Formulario Ploomes -->
+                    <div class="hidden lg:flex justify-center">
+                        <div class="w-full max-w-[560px] rounded-2xl overflow-hidden shadow-2xl border border-white/15 bg-white/10 backdrop-blur-md">
+                            <div class="bg-primary px-6 py-3 text-center">
+                                <h3 class="text-white text-lg font-bold">Solicite um Orçamento Gratuito</h3>
+                                <p class="text-white/80 text-sm mt-0.5">Resposta em até 24h</p>
+                            </div>
+                            <div class="bg-white/60 rounded-b-2xl">
+                                <iframe src="https://forms.ploomes.com/form/0ae5a5947d0e49e5b759b0ee8680a3fd?iframe=true" width="100%" height="480" frameborder="0" style="display:block;"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -524,6 +539,22 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FORMULARIO ========== -->
+        <section id="formulario" class="py-16 md:py-24 bg-secondary">
+            <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-10 fade-up">
+                    <span class="inline-block px-3 py-1 bg-primary/20 text-primary text-sm font-semibold rounded-full mb-4 border border-primary/30">Orçamento</span>
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
+                        Fale com um <span class="text-primary">Especialista</span>
+                    </h2>
+                    <p class="text-gray-300 text-lg">Preencha o formulário e entraremos em contato em até 24h</p>
+                </div>
+                <div class="fade-up rounded-2xl overflow-hidden shadow-2xl border border-white/15 bg-white/60 backdrop-blur-md max-w-xl mx-auto">
+                    <iframe src="https://forms.ploomes.com/form/0ae5a5947d0e49e5b759b0ee8680a3fd?iframe=true" width="100%" height="750" frameborder="0" style="display:block;"></iframe>
                 </div>
             </div>
         </section>
